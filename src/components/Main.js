@@ -41,7 +41,16 @@ export default function Main({ page }) {
             case ("about"):
                 return (
                     //  title and section are selected by default
-                       <img className="aboutme" src="\christy-hanson.jpg" width="300px"></img>         )
+                    <div><img className="aboutme" src="\christy-hanson.jpg" width="300px"></img>  
+                    <h1 className="h1">Bio</h1>
+                    <p>Christy Hanson is an exceptional professional with a diverse range of skills and experiences in social media marketing, content writing, English education, and game design. Christy's foundation in teaching middle school on the Navajo Nation, a Southwestern community, coupled with her rigorous role as a community manager at <a href="https://www.7generationgames.com/">7 Generation Games</a>, molded her into a highly effective marketing professional and creative consultant.</p>
+
+                    <p>At 7 Generation Games, Christy designed two cross-curricular online video games alongside a bright team of elementary students discovering game design. She collaborated with Native American educators, consultants, and artists to breathe life into her narratives. Christy marketed 7 Generation Games to educators via online trainings, conferences, and social media. She has demonstrated a strong connection to people of all ages with her creativity and cultural knowledge.</p>
+
+                    <p>Christy became interested in honing her existing web development skills to supplement her marketing skills. She enrolled in the University of Washington full stack web development bootcamp. Now she has furthered her web content writing expertise and deployed her projects on both GitHub and Heroku. She has also bolstered her existing skills in Agile, project planning, and technical writing. Christy's strengths lie in front end web design and development.</p>
+
+                    <p>Christy is an enthusiastic fiber artist whose grandmother was a Navajo weaver. Her passion in fiber arts was fueled by a bunch of ravenous alpacas in Oregon. She is carrying on the art of Navajo weaving to support K-12 and adult education. She is under the tutelage of Barbara Teller Ornelas and Lynda Pete, who are both award-winning <a href="https://navajorugweavers.com/">seventh generation</a> weavers. Christy was awarded two scholarships to learn and revitalize this Indigenous art form from the Heard Museum in Phoenix, Arizona and the Idyllwild Arts Academy in southern California.</p></div>
+                             )
             case ("portfolio"):
                 return (
                     // titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repos
@@ -60,7 +69,7 @@ export default function Main({ page }) {
                             {/* EVENT DASH */}
                             <div className="card col-auto" width="300px" height="150">
                                 <h3 className="card-header">Event Dash</h3>
-                                <img className="card-body" src="\event-dash.jpg" width="100%"></img>
+                                <img className="card-body" src="/event-dash.jpg" width="100%"></img>
                                 <div className="card-footer">
                                     <a href="https://caseyfee.github.io/EventDash/">Check out the project!</a>
                                     <br></br>

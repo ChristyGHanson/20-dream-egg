@@ -224,29 +224,8 @@ export default function Main({ page }) {
                 )
 
 case ("contact"):
-               return (
-                    // name form, email form, and message form will go here.
-                    // class names should match with index.css
-                    <form>
-                        <div class="form-group">
-                            <label for="name-input">Name</label><br></br>
-                            <input type="text" class="form-input" id="name-input"
-                                placeholder="Enter your name" onChange={handleChange} onBlur={validate} name="name"></input>
-                            {errorState.nameError && <p className="error">Enter your name</p>}
-                        </div>
-                        <div class="form-group pb-2">
-                            <label for="email-input">Email</label><br></br>
-                            <input type="text" class="form-input" id="email-input" placeholder="Enter your email" onChange={handleChange} onBlur={validate} name="email"></input>
-                        </div>
-                        <div class="form-group pb-2">
-                            <label for="message-input">Message</label><br></br>
-                            <textarea type="text" class="form-input" id="message-input" placeholder="Enter a message" onChange={handleChange} onBlur={validate} name="message">{formState.message}</textarea>
-                        </div>
-
-                        <button class="btn btn-primary">Submit</button>
-
-                    </form>
-                 )
+    case ("contactMe"): 
+    return <ContactUs/>
 
         }
     }

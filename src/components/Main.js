@@ -5,8 +5,8 @@ export default function Main({ page }) {
     // use state: 3 inputs, track them, display errors based on conditions. 
     const [formState, setFormState] = useState({ name: "", email: "", message: "" });
     const [errorState, setErrorState] = useState({ nameError: false, emailError: false, messageError: false });
-    const validEmail = new RegExp(
-        '^[a-zA-Z0-9._:$!%-]+@[a-zA-Z0-9.-]+.[a-zA-Z]$');
+    // const validEmail = new RegExp(
+    //     '^[a-zA-Z0-9._:$!%-]+@[a-zA-Z0-9.-]+.[a-zA-Z]$');
     // parse data. if something has a different format from something else. 
     // get name of object clicked. storing user input in variables. 
     function handleChange(event) {

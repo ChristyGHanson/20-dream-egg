@@ -17,23 +17,23 @@ export default function Main({ page }) {
         })
     }
 
-    function validate(event) {
-        const { name } = event.target;
-        if (name == "email") {
-            // run test on formState.email. Save the opposite of the result in the emailError var.
-            setErrorState({ ...errorState, [errorState.emailError]: !validEmail.test(formState.email) })
-            console.log(errorState + formState);
-        }
-        else if (name == "name") {
-            // check against empty string for error handling. if it returns "true", the error does exist.
-            // trim off spaces.
-            setErrorState({ ...errorState, [errorState.nameError]: (formState.name.trim() == "") })
-        }
-        else {
-            // message 
-            setErrorState({ ...errorState, [errorState.messageError]: (formState.message.trim() == "") })
-        }
-    };
+    // function validate(event) {
+    //     const { name } = event.target;
+    //     if (name == "email") {
+    //         // run test on formState.email. Save the opposite of the result in the emailError var.
+    //         setErrorState({ ...errorState, [errorState.emailError]: !validEmail.test(formState.email) })
+    //         console.log(errorState + formState);
+    //     }
+    //     else if (name == "name") {
+    //         // check against empty string for error handling. if it returns "true", the error does exist.
+    //         // trim off spaces.
+    //         setErrorState({ ...errorState, [errorState.nameError]: (formState.name.trim() == "") })
+    //     }
+    //     else {
+    //         // message 
+    //         setErrorState({ ...errorState, [errorState.messageError]: (formState.message.trim() == "") })
+    //     }
+    // };
 
 
     function renderPage() {

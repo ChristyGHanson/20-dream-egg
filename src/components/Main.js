@@ -4,18 +4,18 @@ import { ContactUs } from "./ContactForm";
 export default function Main({ page }) {
     // use state: 3 inputs, track them, display errors based on conditions. 
     const [formState, setFormState] = useState({ name: "", email: "", message: "" });
-    const [errorState, setErrorState] = useState({ nameError: false, emailError: false, messageError: false });
+    // const [errorState, setErrorState] = useState({ nameError: false, emailError: false, messageError: false });
     // const validEmail = new RegExp(
     //     '^[a-zA-Z0-9._:$!%-]+@[a-zA-Z0-9.-]+.[a-zA-Z]$');
     // parse data. if something has a different format from something else. 
     // get name of object clicked. storing user input in variables. 
-    function handleChange(event) {
-        const { name, value } = event.target;
-        setFormState({
-            ...formState,
-            [name]: value
-        })
-    }
+    // function handleChange(event) {
+    //     const { name, value } = event.target;
+    //     setFormState({
+    //         ...formState,
+    //         [name]: value
+    //     })
+    // }
 
     // function validate(event) {
     //     const { name } = event.target;
@@ -35,13 +35,12 @@ export default function Main({ page }) {
     //     }
     // };
 
-
     function renderPage() {
         switch (page) {
             case ("about"):
                 return (
                     //  title and section are selected by default
-                    <div><img className="aboutme" src="\christy-hanson.jpg" width="300px"></img>  
+                    <div><img className="aboutme" src="../img/christy-hanson.jpg" width="300px"></img>  
                     <h1 className="h1">Bio</h1>
                     <p>Christy Hanson is an exceptional professional with a diverse range of skills and experiences in social media marketing, content writing, English education, and game design. Christy's foundation in teaching middle school on the Navajo Nation, a Southwestern community, coupled with her rigorous role as a community manager at <a href="https://www.7generationgames.com/">7 Generation Games</a>, molded her into a highly effective marketing professional and creative consultant.</p>
 
@@ -59,7 +58,7 @@ export default function Main({ page }) {
                             {/* HOZHO WEAVING NETWORK */}
                             <div className="card col-auto">
                                 <h3 className="card-header">Hozho Weaving Network</h3>
-                                <img className="card-body" src="\hozho-weaving-network.jpg" width="100%"></img>
+                                <img className="card-body" src="../img/hozho-weaving-network.jpg" width="100%" alt=""></img>
                                 <div className="card-footer">
                                     <a href="https://hozho-weaving-network.herokuapp.com/">Check out the project!</a>
                                     <br></br>
@@ -69,7 +68,7 @@ export default function Main({ page }) {
                             {/* EVENT DASH */}
                             <div className="card col-auto" width="300px" height="150">
                                 <h3 className="card-header">Event Dash</h3>
-                                <img className="card-body" src="/event-dash.jpg" width="100%"></img>
+                                <img className="card-body" src="../img/event-dash.jpg" width="100%" alt=""></img>
                                 <div className="card-footer">
                                     <a href="https://caseyfee.github.io/EventDash/">Check out the project!</a>
                                     <br></br>
@@ -79,7 +78,7 @@ export default function Main({ page }) {
                             {/* JAM SESSION */}
                             <div className="card col-auto">
                                 <h3 className="card-header">Jam Session</h3>
-                                <img className="card-body" src="\jam-session.jpg" width="100%"></img>
+                                <img className="card-body" src="../img/jam-session.jpg" width="100%" alt=""></img>
                                 <div className="card-footer">
                                     <a href="https://calm-tor-47120.herokuapp.com/">Check out the project!</a>
                                     <br></br>
@@ -91,7 +90,7 @@ export default function Main({ page }) {
                             {/* NOTE TAKER EXPRESS */}
                             <div className="card col-auto">
                                 <h3 className="card-header">Note Taker Express</h3>
-                                <img className="card-body" src="\note-taker-express.jpg" width="100%"></img>
+                                <img className="card-body" src="../img/note-taker-express.jpg" width="100%" alt=""></img>
                                 <div className="card-footer">
                                     <a href="https://profile-tool-10-20b598854352.herokuapp.com/">Check out the project!</a>
                                     <br></br>
@@ -101,7 +100,7 @@ export default function Main({ page }) {
                             {/* scheduler app */}
                             <div className="card col-auto" height="100px">
                                 <h3 className="card-header">My Workday Scheduler</h3>
-                                <img src="\scheduler-app.jpg" width="100%"></img>
+                                <img src="../img/scheduler-app.jpg" width="100%" alt=""></img>
                                 <div className="card-footer">
                                     <a href="https://christyghanson.github.io/My-Workday-Scheduler/">Check out the project!</a>
                                     <br></br>
@@ -111,7 +110,7 @@ export default function Main({ page }) {
                             {/* EMPLOYEE TRACKER TOOL */}
                             <div className="card col-auto">
                                 <h3 className="card-header">Employee Tracker Tool</h3>
-                                <img className="card-body" src="\emp-tracker.jpg" width="100%"></img>
+                                <img className="card-body" src="../img/emp-tracker.jpg" width="100%" alt=""></img>
                                 <div className="card-footer">
                                     <a href="https://drive.google.com/file/d/12HT5N3Y8WK_KtuBudgORUtQdmhwzj_Do/view">Check out the project!</a>
                                     <br></br>

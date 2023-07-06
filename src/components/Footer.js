@@ -7,15 +7,15 @@
 import React from "react";
 // importing App.js variables.
 
-export default function Footer(){
-    return(
+export default function Footer() {
+    return (
         <div className="footer">
-            <a href="https://www.linkedin.com/in/christyghanson/"><img className="logo" src="/linkedin-logo.png" width="50px" alt=""></img></a>  
-            <a href="https://github.com/ChristyGHanson/"><img className="logo" src="/github-logo.png" width="50px" alt=""></img></a>
-            <a href="https://twitter.com/hagooshii/"><img className="logo" src="/twitter-outline.png" width="50px" alt=""></img></a>  
-            <a href="mailto:chrsthnsn@gmail"><img className="logo" src="/email-logo.avif" width="50px" alt=""></img></a>   
-            
-    
+            <a href="https://www.linkedin.com/in/christyghanson/"><img className="logo" src="..img/linkedin-logo.png" width="50px" alt=""></img></a>
+            <a href="https://github.com/ChristyGHanson/"><img className="logo" src="..img/github-logo.png" width="50px" alt=""></img></a>
+            <a href="https://twitter.com/hagooshii/"><img className="logo" src="..img/twitter-outline.png" width="50px" alt=""></img></a>
+            <a href="mailto:chrsthnsn@gmail"><img className="logo" src="..img/email-logo.avif" width="50px" alt=""></img></a>
+
+
         </div>
     );
 };

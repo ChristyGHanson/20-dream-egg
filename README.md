@@ -1,4 +1,4 @@
-# Portfolio
+# React Portfolio for Christy Hanson
 
 ## License Badge
 

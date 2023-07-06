@@ -60,7 +60,7 @@ export default function Main({ page }) {
                             {/* HOZHO WEAVING NETWORK */}
                             <div className="card col-auto">
                                 <h3 className="card-header">Hozho Weaving Network</h3>
-                                <img className="card-body" src="./images/hozho-weaving-network.jpg" width="100%" alt="" />
+                                <img className="card-body" src="https://i.imgur.com/KPGmYwZ.jpg" width="100%" alt="" />
                                 <div className="card-footer">
                                     <a href="https://hozho-weaving-network.herokuapp.com/">Check out the project!</a>
                                     <br></br>
@@ -70,7 +70,7 @@ export default function Main({ page }) {
                             {/* EVENT DASH */}
                             <div className="card col-auto" width="300px" height="150">
                                 <h3 className="card-header">Event Dash</h3>
-                                <img className="card-body" src="./images/event-dash.jpg" width="100%" alt="" />
+                                <img className="card-body" src="https://i.imgur.com/wuP0uyC.jpg" width="100%" alt="" />
                                 <div className="card-footer">
                                     <a href="https://caseyfee.github.io/EventDash/">Check out the project!</a>
                                     <br></br>
@@ -80,7 +80,7 @@ export default function Main({ page }) {
                             {/* JAM SESSION */}
                             <div className="card col-auto">
                                 <h3 className="card-header">Jam Session</h3>
-                                <img className="card-body" src="./images/jam-session.jpg" width="100%" alt="" />
+                                <img className="card-body" src="https://i.imgur.com/Xmh6ZQR.png" width="100%" alt="" />
                                 <div className="card-footer">
                                     <a href="https://calm-tor-47120.herokuapp.com/">Check out the project!</a>
                                     <br></br>
@@ -92,7 +92,7 @@ export default function Main({ page }) {
                             {/* NOTE TAKER EXPRESS */}
                             <div className="card col-auto">
                                 <h3 className="card-header">Note Taker Express</h3>
-                                <img className="card-body" src="./images/note-taker-express.jpg" width="100%" alt="" />
+                                <img className="card-body" src="https://i.imgur.com/Tut9kYn.jpg" width="100%" alt="" />
                                 <div className="card-footer">
                                     <a href="https://profile-tool-10-20b598854352.herokuapp.com/">Check out the project!</a>
                                     <br></br>
@@ -102,7 +102,7 @@ export default function Main({ page }) {
                             {/* scheduler app */}
                             <div className="card col-auto" height="100px">
                                 <h3 className="card-header">My Workday Scheduler</h3>
-                                <img src="./images/scheduler-app.jpg" width="100%" alt="" />
+                                <img src="https://i.imgur.com/pJP138k.jpg" width="100%" alt="" />
                                 <div className="card-footer">
                                     <a href="https://christyghanson.github.io/My-Workday-Scheduler/">Check out the project!</a>
                                     <br></br>
@@ -112,7 +112,7 @@ export default function Main({ page }) {
                             {/* EMPLOYEE TRACKER TOOL */}
                             <div className="card col-auto">
                                 <h3 className="card-header">Employee Tracker Tool</h3>
-                                <img className="card-body" src="./images/emp-tracker.jpg" width="100%" alt="" />
+                                <img className="card-body" src="https://i.imgur.com/HuoXzVp.jpg" width="100%" alt="" />
                                 <div className="card-footer">
                                     <a href="https://drive.google.com/file/d/12HT5N3Y8WK_KtuBudgORUtQdmhwzj_Do/view">Check out the project!</a>
                                     <br></br>

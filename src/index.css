@@ -5,6 +5,11 @@
   --navy: #213555;
 }
 
+p {
+  padding: 2px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+}
 
 body {
   margin: 0;
@@ -17,8 +22,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
@@ -27,9 +31,9 @@ h1 {
   color: var(--navy);
   /* for inline objects */
   text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-
 
 /* class .nav */
 .nav {
@@ -349,7 +353,18 @@ form .form-input.form-input-squared {
   padding-left: 10px;
 }
 
-.aboutme {
+/* .aboutme {
   display: flex;
-  margin-left: 38%;
+  margin-left: 44%;
+  padding: 20px;
+} */
+
+.aboutme {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 350px;
+  width: 350px;
+
 }

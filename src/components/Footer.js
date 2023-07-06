@@ -10,10 +10,10 @@ import React from "react";
 export default function Footer() {
     return (
         <div className="footer">
-            <a href="https://www.linkedin.com/in/christyghanson/"><img className="logo" src="../img/linkedin-logo.png" width="50px" alt=""></img></a>
-            <a href="https://github.com/ChristyGHanson/"><img className="logo" src="../img/github-logo.png" width="50px" alt=""></img></a>
-            <a href="https://twitter.com/hagooshii/"><img className="logo" src="../img/twitter-outline.png" width="50px" alt=""></img></a>
-            <a href="mailto:chrsthnsn@gmail"><img className="logo" src="../img/email-logo.avif" width="50px" alt=""></img></a>
+            <a href="https://www.linkedin.com/in/christyghanson/"><img className="logo" src="./img/linkedin-logo.png" width="50px" alt="" /></a>
+            <a href="https://github.com/ChristyGHanson/"><img className="logo" src="./img/github-logo.png" width="50px" alt="" /></a>
+            <a href="https://twitter.com/hagooshii/"><img className="logo" src="./img/twitter-outline.png" width="50px" alt="" /></a>
+            <a href="mailto:chrsthnsn@gmail"><img className="logo" src="./img/email-logo.avif" width="50px" alt="" /></a>
 
 
         </div>
